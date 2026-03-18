@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from google.colab import drive
 import torch.nn as nn
 from torchvision import models
-# Подготовка трансформаций (MobileNetV2 ждет размер 224x224)
+# Подготовка трансформаций
 basic_transforms = v2.Compose([
     v2.ToImage(),
     v2.Resize((224, 224), antialias=True),
