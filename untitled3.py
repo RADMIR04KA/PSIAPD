@@ -346,9 +346,8 @@ model = MobileNetV2Custom(num_classes=num_classes, width_mult=1.0, dropout=0.2).
 
 
 
-# =========================================================
 # 5. LOSS И OPTIMIZER
-# =========================================================
+
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
