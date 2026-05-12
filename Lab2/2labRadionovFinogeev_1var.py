@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BOmSJrZ4X4aTHWSBR3avRdYdo-Iul3Uz
 """
 
-!rm -f /content/howto100m_project/metadata/HowTo100M.zip
+
 
 # ============================================================
 # CELL 1: IMPORTS + HOWTO100M METADATA + VIDEO SUBSET DOWNLOAD
