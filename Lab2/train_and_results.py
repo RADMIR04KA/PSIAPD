@@ -614,18 +614,7 @@ def main():
 
     train_and_evaluate(X, used_df)
 
-    print("""
-========== REPORT TEXT ==========
-В данной работе была собрана health-like подвыборка из 1000 доступных YouTube-видео на основе metadata HowTo100M.
-Из-за недоступности части исходных YouTube-ссылок распределение классов получилось несбалансированным.
-Для обучения были использованы классы, содержащие не менее MIN_SAMPLES_PER_CLASS примеров.
 
-Для каждого видео извлекались 16 кадров. Затем предобученная модель VideoMAE использовалась как feature extractor:
-каждое видео преобразовывалось в embedding-вектор. Поверх полученных признаков был обучен классификатор Logistic Regression.
-
-Качество модели оценивалось с помощью Accuracy, Precision, Recall, F1-score, Top-K Accuracy,
-confusion matrix и error analysis.
-""")
 
 
 if __name__ == "__main__":
