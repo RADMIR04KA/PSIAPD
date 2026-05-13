@@ -268,7 +268,7 @@ error_rate = 0.8333
 
 ### Анализ confusion matrix
 
-![matrix](img/matrix.png)
+![matrix](img/matrix.jpg)
 
 Confusion matrix использовалась для визуального анализа того, какие классы модель путает между собой.
 
